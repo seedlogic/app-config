@@ -1,9 +1,9 @@
 {
-    "name": "seedlogic-php-utils/AppConfig",
+    "name": "seedlogic-php-utils/app-config",
     "type": "library",
     "description": "Seedlogic PHP AppConfig library",
     "keywords": [],
-    "homepage": "https://github.com/seedlogic/AppConfig",
+    "homepage": "https://github.com/seedlogic/app-config",
     "license": "proprietary",
     "authors": [
         {
