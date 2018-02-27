@@ -1,0 +1,32 @@
+{
+    "name": "seedlogic-php-utils/AppConfig",
+    "type": "library",
+    "description": "Seedlogic PHP AppConfig library",
+    "keywords": [],
+    "homepage": "https://github.com/seedlogic/AppConfig",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Brandon Worf",
+            "email": "brandon@seedlogic.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+		"php": "^7.0",
+		"monolog/monolog": "^1.2"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seedlogic\\Utils\\AppConfig\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Seedlogic\\Utils\\AppConfig\\Tests\\": "tests/"
+        }
+    }
+}
