@@ -4,6 +4,7 @@
     "description": "Seedlogic PHP AppConfig library",
     "keywords": [],
     "homepage": "https://github.com/seedlogic/app-config",
+    "version": "0.1",
     "authors": [
         {
             "name": "Brandon Worf",
