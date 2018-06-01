@@ -94,7 +94,7 @@ class EnvironmentHelper
 					'BASE_RSS'	=> $appConfig['paths']['base_rss'],
 					'BASE_ATOM'	=> $appConfig['paths']['base_atom'],
 					'BASE_API'	=> $appConfig['paths']['base_api'],
-					'BASE_PATH'	=> $appConfig['paths']['base_path'],
+					'BASE_PATH'	=> $_SERVER['DOCUMENT_ROOT'] . $appConfig['paths']['base_path'],
 				),
 				'email' => array (
 					'GLOBAL_DEFAULT'	=> $appConfig['email']['global'],
@@ -118,7 +118,7 @@ class EnvironmentHelper
 			define('BASE_RSS', $appConfig['paths']['base_rss']);
 			define('BASE_ATOM', $appConfig['paths']['base_atom']);
 			define('BASE_API', $appConfig['paths']['base_api']);
-			define('BASE_PATH', $appConfig['paths']['base_path']);
+			define('BASE_PATH', $_SERVER['DOCUMENT_ROOT'] . $appConfig['paths']['base_path']);
 
 			define('GLOBAL_DEFAULT', $appConfig['email']['global']);
 			define('LOGGING_EMAIL', $appConfig['email']['logging']);
